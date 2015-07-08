@@ -10,8 +10,10 @@ autocmd!
 " have syntax highlighting in terminals which can display colors:
 if has('syntax') && (&t_Co > 2)
 	syntax on
-"  set background=dark
+  set background=dark
 "  colorscheme solarized
+"  let base16colorspace=256
+  colorscheme base16-railscasts
 endif
 
 " display the current mode and partially-typed commands in the status line:
