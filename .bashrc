@@ -92,15 +92,15 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 ### homeshick
-source ~/.homesick/repos/homeshick/homeshick.sh
-source ~/.homesick/repos/homeshick/completions/homeshick-completion.bash
+#source ~/.homesick/repos/homeshick/homeshick.sh
+#source ~/.homesick/repos/homeshick/completions/homeshick-completion.bash
 
 ### liquidprompt
-[[ $- = *i* ]] && source ~/.liquidprompt/liquidprompt
+#[[ $- = *i* ]] && source ~/.liquidprompt/liquidprompt
 
 ### base16-shell
 BASE16_SHELL="$HOME/.config/base16-shell/base16-railscasts.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+#[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 # Local changes for bash environment
 if [ -f ~/.bash_local ]; then

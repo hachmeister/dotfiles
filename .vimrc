@@ -13,7 +13,8 @@ if has('syntax') && (&t_Co > 2)
   set background=dark
 "  colorscheme solarized
 "  let base16colorspace=256
-  colorscheme base16-railscasts
+"  colorscheme base16-railscasts
+  colorscheme base16-gruvbox
 endif
 
 " display the current mode and partially-typed commands in the status line:

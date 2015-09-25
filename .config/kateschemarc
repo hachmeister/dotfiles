@@ -1,0 +1,23 @@
+[Gruvbox]
+Color Background=40,40,40
+Color Highlighted Bracket=124,111,100
+Color Highlighted Line=60,56,54
+Color Icon Bar=40,40,40
+Color Line Number=119,119,119
+Color Modified Lines=177,98,134
+Color Replace Highlight=88,73,69
+Color Saved Lines=104,157,106
+Color Search Highlight=88,73,69
+Color Selection=235,219,178
+Color Separator=40,40,40
+Color Tab Marker=88,73,69
+Color Word Wrap Marker=56,56,56
+Font=Hack,11,-1,5,50,0,0,0,0,0
+dummy=prevent-empty-group
+
+[Normal]
+dummy=prevent-empty-group
+
+[Solarized (dark)]
+Font=Hack,11,-1,5,50,0,0,0,0,0
+dummy=prevent-empty-group
