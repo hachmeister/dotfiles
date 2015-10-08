@@ -96,7 +96,9 @@ fi
 #source ~/.homesick/repos/homeshick/completions/homeshick-completion.bash
 
 ### liquidprompt
-#[[ $- = *i* ]] && source ~/.liquidprompt/liquidprompt
+if [ -f ~/apps/liquidprompt/liquidprompt ]; then
+  [[ $- = *i* ]] && source ~/apps/liquidprompt/liquidprompt
+fi
 
 ### base16-shell
 BASE16_SHELL="$HOME/.config/base16-shell/base16-railscasts.dark.sh"
