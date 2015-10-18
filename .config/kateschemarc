@@ -12,6 +12,7 @@ Color Selection=235,219,178
 Color Separator=40,40,40
 Color Tab Marker=88,73,69
 Color Word Wrap Marker=56,56,56
+Current Color Line Number=119,119,119
 Font=Hack,11,-1,5,50,0,0,0,0,0
 dummy=prevent-empty-group
 
