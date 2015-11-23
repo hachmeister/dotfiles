@@ -1,0 +1,49 @@
+general {
+  colors = true
+  interval = 1
+  color_good = '#ebdbb2'
+  color_degraded = '#d79921'
+  color_bad = '#cc241d'
+}
+
+
+order += "ethernet eno1"
+order += "cpu_usage 0"
+order += "cpu_temperature 0"
+order += "disk /home"
+order += "volume master"
+order += "tztime local"
+
+ethernet eno1 {
+  format_up = " %ip (%speed)"
+  format_down = " nicht verfügbar"
+}
+
+cpu_usage {
+  format = " %usage"
+}
+
+cpu_temperature 0 {
+  format = "%degrees°C"
+  path = "/sys/class/thermal/thermal_zone0/temp"
+  max_threshold = 95
+}
+
+disk "/home" {
+  format = " %free"
+  prefix_type = custom
+  low_threshold = 5
+  threshold_type = percentage_free
+}
+
+volume master {
+  format = " %volume"
+  format_muted = " %volume"
+  device = "default"
+  mixer = "Master"
+  mixer_idx = 0
+}
+
+tztime local {
+        format = " %d.%b  %H:%M"
+}
