@@ -19,6 +19,9 @@ dummy=prevent-empty-group
 [Normal]
 dummy=prevent-empty-group
 
+[Printing]
+dummy=prevent-empty-group
+
 [Solarized (dark)]
 Font=Hack,11,-1,5,50,0,0,0,0,0
 dummy=prevent-empty-group
